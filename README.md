@@ -2,7 +2,7 @@
 
   <img
     src="https://github.com/SP-XD/SP-XD/blob/main/images/hellocoders_rounded.gif?raw=true"
-    alt="Hello Coders"
+    alt="Hello Asem Alroomy"
     style="width:520px; max-width:90%; border-radius:18px;"
   />
   <br/>
@@ -105,28 +105,3 @@ About asem = {
   .Tools       = {"Git/GitHub", "Proteus", "AVR-GCC", "VS Code", "Debugging", "Datasheets"},
   .Platforms   = {"GNU/Linux", "Windows", "MCU"}
 };
-<div align="center">
-  <a href="https://github.com/AsemAlroomy">
-    <img src="https://github-readme-stats.vercel.app/api?username=AsemAlroomy&show_icons=true&hide_border=true" width="49%">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=AsemAlroomy&hide_border=true" width="49%">
-  </a>
-
-  <details>
-    <summary>More stats</summary>
-    <br/>
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AsemAlroomy&theme=nord_dark" width="98%">
-  </details>
-</div>
-
-<hr/>
-
-<div align="center">
-
-**Code Cycle** 🔁  
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Spiral%20Eyes.png" width="70" alt="Broken system!"/>
-&nbsp;&nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Relieved%20Face.png" width="70" alt="It's working!"/>
-&nbsp;&nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Astonished%20Face.png" width="70" alt="It's working but you don't know how!"/>
-
-</div>
