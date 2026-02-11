@@ -1,15 +1,13 @@
-````md
 <div align="center" width="50">
 
 <img src="https://github.com/SP-XD/SP-XD/blob/main/images/hellocoders_rounded.gif?raw=true" alt="Hello Coders" width="60%"/> <br>
 <img src="https://github.com/SP-XD/SP-XD/blob/main/images/dev-working_rounded.gif?raw=true" alt="Workspace"  width="40%"/><br> 
 
 <details>
-<p><strong> <summary> Busy building firmware & vibing to : </summary> </strong></p>
+  <summary><strong>Busy building firmware & vibing to :</strong></summary>
 
-<!-- Optional: add your Spotify user link here -->
-<!-- [![Spotify](https://spotify-readme.sp-xd.vercel.app/api/spotify)](https://open.spotify.com/user/YOUR_SPOTIFY_USER_ID) -->
-
+  <!-- Optional: add your Spotify user link here -->
+  <!-- [![Spotify](https://spotify-readme.sp-xd.vercel.app/api/spotify)](https://open.spotify.com/user/YOUR_SPOTIFY_USER_ID) -->
 </details>
 
 ![Totals Hits](https://komarev.com/ghpvc/?username=AsemAlroomy&style=flat&color=orange&label=PROFILE+VIEWS)
@@ -20,7 +18,7 @@
 
 </div>
 
-<hr></hr>
+<hr/>
 
 ## 👋 Hi, I’m **Asem Alroomy**
 🧩 **Embedded Software Engineer / Mechatronics Engineer** — **R&D @ Pyramakerz (Jan 2025 – Present)**  
@@ -67,48 +65,3 @@ About asem = {
   .Tools       = {"Git/GitHub", "Proteus", "AVR-GCC", "VS Code", "Debugging", "Datasheets"},
   .Platforms   = {"GNU/Linux", "Windows", "MCU"}
 };
-````
-
-* <img alt="GIF" src="https://github.com/SP-XD/SP-XD/blob/main/images/Developer.gif" width="25" />   Currently: **Embedded Software Engineer / Mechatronics Engineer** in **R&D @ Pyramakerz** (**Jan 2025 – Present**).
-* 🧠 I enjoy writing **drivers**, integrating **peripherals**, and debugging **hardware/software** together.
-* 💬 Ask me about: **AVR, Embedded C, Timers/PWM, ADC, UART/I2C, sensors, motor control**.
-* 📫 Reach me: **[asem_h@outlook.com](mailto:asem_h@outlook.com)** | **[LinkedIn](https://www.linkedin.com/in/asem-alroomy-6779bb18b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)**
-
----
-
-## 🧩 Highlight Projects (Embedded)
-
-* 🔐 **Door Locker Security System (ATmega32)** — Keypad/LCD/Timers/UART/I2C/EEPROM/DC motor/Buzzer
-* 📏 **Distance Measuring System (ATmega32)** — Ultrasonic + ICU + LCD
-* 🌡️ **Fan Speed Controller w/ Temperature (ATmega32)** — LM35 + ADC + PWM + DC motor + LCD
-* ⏱️ **Stopwatch (ATmega32)** — Timers + External Interrupts + 7-Segment
-
----
-
-<div align="center" >
-<a href="https://github.com/AsemAlroomy">
-
-<img src="https://github-readme-stats.vercel.app/api?username=AsemAlroomy&show_icons=true&hide_border=true" width="49%">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=AsemAlroomy&hide_border=true" width="49%">
-
-</a>
-
-<details>
-  <summary>More stats</summary>
-
-<img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AsemAlroomy&theme=nord_dark" width="98%">
-
-</details>
-
-<hr></hr>
-
-**Code Cycle**<br>
-
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Spiral%20Eyes.png" width="10%" alt="Broken system!"/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Relieved%20Face.png" width="10%" alt="It's working!"/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Astonished%20Face.png" width="10%" alt="It's working but you don't know how!"/><br>
-
-</div>
-```
