@@ -1,9 +1,9 @@
 <div align="center">
 
   <img
-    src="https://github.com/SP-XD/SP-XD/blob/main/images/hellocoders_rounded.gif?raw=true"
-    alt="Hello Asem Alroomy"
-    style="width:520px; max-width:90%; border-radius:18px;"
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&center=true&vCenter=true&width=780&lines=Hello%2C+I'm+Asem+Alroomy!;Embedded+Software+%26+Mechatronics+Engineer"
+    alt="Hello, I'm Asem Alroomy"
+    style="max-width:95%;"
   />
   <br/>
 
@@ -23,16 +23,20 @@
 
   <br/>
 
-  ![Profile Views](https://komarev.com/ghpvc/?username=AsemAlroomy&style=flat&color=orange&label=PROFILE+VIEWS)
+  <img src="https://komarev.com/ghpvc/?username=AsemAlroomy&style=flat&color=orange&label=PROFILE+VIEWS" alt="Profile Views" />
 
-  <br/>
+  <br/><br/>
 
-  [![Email](https://img.shields.io/badge/Email-asem_h%40outlook.com-grey?style=flat&logo=gmail)](mailto:asem_h@outlook.com)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Asem%20Alroomy-grey?style=flat&logo=linkedin)](https://www.linkedin.com/in/asem-alroomy-6779bb18b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
+  <a href="mailto:asem_h@outlook.com">
+    <img src="https://img.shields.io/badge/Email-asem_h%40outlook.com-grey?style=flat&logo=gmail" alt="Email" />
+  </a>
+  <a href="https://www.linkedin.com/in/asem-alroomy-6779bb18b?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=ios_app">
+    <img src="https://img.shields.io/badge/LinkedIn-Asem%20Alroomy-grey?style=flat&logo=linkedin" alt="LinkedIn" />
+  </a>
 
 </div>
 
-<hr/>
+---
 
 ## 👋 Hi, I’m **Asem Alroomy**
 🧩 **Embedded Software Engineer / Mechatronics Engineer** — **R&D @ Pyramakerz (Jan 2025 – Present)**  
@@ -70,9 +74,7 @@
 
 ---
 
-## ⭐ Pinned Repositories
-> Replace the links below with your best repos (or keep them as placeholders for now).
-
+## ⭐ Featured Repositories
 - 🔥 **Embedded Drivers & HAL (AVR)** — https://github.com/AsemAlroomy/REPO_NAME_1  
 - 🔐 **Door Locker Security System** — https://github.com/AsemAlroomy/REPO_NAME_2  
 - 📏 **Ultrasonic Distance Measuring** — https://github.com/AsemAlroomy/REPO_NAME_3  
