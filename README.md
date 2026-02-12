@@ -90,20 +90,4 @@
 
 ---
 
-## 🧾 Quick “About” in C 😄
-```c
-typedef struct {
-  const char* Languages[4];
-  const char* MCUs[4];
-  const char* Peripherals[10];
-  const char* Tools[6];
-  const char* Platforms[3];
-} About;
 
-About asem = {
-  .Languages   = {"C", "Embedded C", "C++", "Python (basic)"},
-  .MCUs        = {"AVR (ATmega32)", "ARM (basic)", "Arduino", "Bare-metal"},
-  .Peripherals = {"GPIO", "Timers", "ADC", "PWM", "UART", "I2C", "SPI", "External Interrupts", "ICU", "EEPROM"},
-  .Tools       = {"Git/GitHub", "Proteus", "AVR-GCC", "VS Code", "Debugging", "Datasheets"},
-  .Platforms   = {"GNU/Linux", "Windows", "MCU"}
-};
