@@ -89,7 +89,8 @@
 - ⏱️ **Stopwatch (ATmega32)** — Timers + External Interrupts + 7-Segment  
 
 ---
-## 🧾 Quick “About” in C 😄
+<details>
+  <summary><strong>🧾 Quick “About” in C 😄 (click to expand)</strong></summary>
 
 ```c
 /*
@@ -97,8 +98,6 @@
  * R&D @ Pyramakerz (Jan 2025 – Present)
  * Build: drivers, peripherals, prototypes ⚙️
  */
-
-#define COUNT_OF(x) ((int)(sizeof(x) / sizeof((x)[0])))
 
 typedef struct {
   const char* name;
@@ -118,18 +117,11 @@ static const Profile asem = {
   .role        = "Embedded Software Engineer / Mechatronics Engineer",
   .org         = "Pyramakerz | R&D",
   .since       = "Jan 2025",
-
   .languages   = {"C", "Embedded C", "C++", "Python (basic)"},
   .mcu_focus   = {"AVR (ATmega32)", "ARM (basic)", "Arduino", "Bare-metal"},
   .peripherals = {"GPIO", "Timers", "ADC", "PWM", "UART", "I2C", "SPI", "EXTI", "ICU", "EEPROM"},
   .tools       = {"Git/GitHub", "Proteus", "AVR-GCC", "VS Code", "Debugging", "Datasheets"},
   .platforms   = {"GNU/Linux", "Windows", "MCU"}
 };
-
-int main(void) {
-  // printf("Hi, I'm %s — %s @ %s (since %s)\n", asem.name, asem.role, asem.org, asem.since);
-  // printf("Peripherals: %d | Tools: %d\n", COUNT_OF(asem.peripherals), COUNT_OF(asem.tools));
-  return 0;
-}
 
 
