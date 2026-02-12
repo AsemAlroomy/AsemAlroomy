@@ -89,18 +89,21 @@
 - ⏱️ **Stopwatch (ATmega32)** — Timers + External Interrupts + 7-Segment  
 
 ---
-## 🧾 Quick “About” in C 😄
-```c
 /*
  * Asem Alroomy — Embedded Software / Mechatronics Engineer
  * R&D @ Pyramakerz (Jan 2025 – Present)
+ *
+ * Build: drivers, peripherals, prototypes ⚙️
  */
 
-#define COUNT(x) (int)(sizeof(x) / sizeof((x)[0]))
+#define COUNT_OF(x) ((int)(sizeof(x) / sizeof((x)[0])))
 
 typedef struct {
-  const char* title;
-  const char* company;
+  const char* name;
+  const char* role;
+  const char* org;
+  const char* since;
+
   const char* languages[4];
   const char* mcu_focus[4];
   const char* peripherals[10];
@@ -109,8 +112,11 @@ typedef struct {
 } Profile;
 
 static const Profile asem = {
-  .title      = "Embedded Software Engineer / Mechatronics Engineer",
-  .company    = "Pyramakerz | R&D",
+  .name       = "Asem Alroomy",
+  .role       = "Embedded Software Engineer / Mechatronics Engineer",
+  .org        = "Pyramakerz | R&D",
+  .since      = "Jan 2025",
+
   .languages  = {"C", "Embedded C", "C++", "Python (basic)"},
   .mcu_focus  = {"AVR (ATmega32)", "ARM (basic)", "Arduino", "Bare-metal"},
   .peripherals= {"GPIO", "Timers", "ADC", "PWM", "UART", "I2C", "SPI", "EXTI", "ICU", "EEPROM"},
@@ -118,10 +124,9 @@ static const Profile asem = {
   .platforms  = {"GNU/Linux", "Windows", "MCU"}
 };
 
-/* boot() */
 int main(void) {
-  // printf("Hi! I'm %s @ %s\n", asem.title, asem.company);
-  // printf("Languages: %d | Peripherals: %d\n", COUNT(asem.languages), COUNT(asem.peripherals));
+  // Just to make the code feel alive 😄
+  // printf("Hi, I'm %s — %s @ %s (since %s)\n", asem.name, asem.role, asem.org, asem.since);
+  // printf("Peripherals: %d | Tools: %d\n", COUNT_OF(asem.peripherals), COUNT_OF(asem.tools));
   return 0;
 }
-
