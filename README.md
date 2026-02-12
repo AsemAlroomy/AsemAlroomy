@@ -89,10 +89,12 @@
 - ⏱️ **Stopwatch (ATmega32)** — Timers + External Interrupts + 7-Segment  
 
 ---
+## 🧾 Quick “About” in C 😄
+
+```c
 /*
  * Asem Alroomy — Embedded Software / Mechatronics Engineer
  * R&D @ Pyramakerz (Jan 2025 – Present)
- *
  * Build: drivers, peripherals, prototypes ⚙️
  */
 
@@ -112,21 +114,21 @@ typedef struct {
 } Profile;
 
 static const Profile asem = {
-  .name       = "Asem Alroomy",
-  .role       = "Embedded Software Engineer / Mechatronics Engineer",
-  .org        = "Pyramakerz | R&D",
-  .since      = "Jan 2025",
+  .name        = "Asem Alroomy",
+  .role        = "Embedded Software Engineer / Mechatronics Engineer",
+  .org         = "Pyramakerz | R&D",
+  .since       = "Jan 2025",
 
-  .languages  = {"C", "Embedded C", "C++", "Python (basic)"},
-  .mcu_focus  = {"AVR (ATmega32)", "ARM (basic)", "Arduino", "Bare-metal"},
-  .peripherals= {"GPIO", "Timers", "ADC", "PWM", "UART", "I2C", "SPI", "EXTI", "ICU", "EEPROM"},
-  .tools      = {"Git/GitHub", "Proteus", "AVR-GCC", "VS Code", "Debugging", "Datasheets"},
-  .platforms  = {"GNU/Linux", "Windows", "MCU"}
+  .languages   = {"C", "Embedded C", "C++", "Python (basic)"},
+  .mcu_focus   = {"AVR (ATmega32)", "ARM (basic)", "Arduino", "Bare-metal"},
+  .peripherals = {"GPIO", "Timers", "ADC", "PWM", "UART", "I2C", "SPI", "EXTI", "ICU", "EEPROM"},
+  .tools       = {"Git/GitHub", "Proteus", "AVR-GCC", "VS Code", "Debugging", "Datasheets"},
+  .platforms   = {"GNU/Linux", "Windows", "MCU"}
 };
 
 int main(void) {
-  // Just to make the code feel alive 😄
   // printf("Hi, I'm %s — %s @ %s (since %s)\n", asem.name, asem.role, asem.org, asem.since);
   // printf("Peripherals: %d | Tools: %d\n", COUNT_OF(asem.peripherals), COUNT_OF(asem.tools));
   return 0;
 }
+```
