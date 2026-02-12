@@ -89,22 +89,39 @@
 - ⏱️ **Stopwatch (ATmega32)** — Timers + External Interrupts + 7-Segment  
 
 ---
-
 ## 🧾 Quick “About” in C 😄
 ```c
-typedef struct {
-  const char* Languages[4];
-  const char* MCUs[4];
-  const char* Peripherals[10];
-  const char* Tools[6];
-  const char* Platforms[3];
-} About;
+/*
+ * Asem Alroomy — Embedded Software / Mechatronics Engineer
+ * R&D @ Pyramakerz (Jan 2025 – Present)
+ */
 
-static const About asem = {
-  .Languages   = {"C", "Embedded C", "C++", "Python (basic)"},
-  .MCUs        = {"AVR (ATmega32)", "ARM (basic)", "Arduino", "Bare-metal"},
-  .Peripherals = {"GPIO", "Timers", "ADC", "PWM", "UART", "I2C", "SPI", "External Interrupts", "ICU", "EEPROM"},
-  .Tools       = {"Git/GitHub", "Proteus", "AVR-GCC", "VS Code", "Debugging", "Datasheets"},
-  .Platforms   = {"GNU/Linux", "Windows", "MCU"}
+#define COUNT(x) (int)(sizeof(x) / sizeof((x)[0]))
+
+typedef struct {
+  const char* title;
+  const char* company;
+  const char* languages[4];
+  const char* mcu_focus[4];
+  const char* peripherals[10];
+  const char* tools[6];
+  const char* platforms[3];
+} Profile;
+
+static const Profile asem = {
+  .title      = "Embedded Software Engineer / Mechatronics Engineer",
+  .company    = "Pyramakerz | R&D",
+  .languages  = {"C", "Embedded C", "C++", "Python (basic)"},
+  .mcu_focus  = {"AVR (ATmega32)", "ARM (basic)", "Arduino", "Bare-metal"},
+  .peripherals= {"GPIO", "Timers", "ADC", "PWM", "UART", "I2C", "SPI", "EXTI", "ICU", "EEPROM"},
+  .tools      = {"Git/GitHub", "Proteus", "AVR-GCC", "VS Code", "Debugging", "Datasheets"},
+  .platforms  = {"GNU/Linux", "Windows", "MCU"}
 };
+
+/* boot() */
+int main(void) {
+  // printf("Hi! I'm %s @ %s\n", asem.title, asem.company);
+  // printf("Languages: %d | Peripherals: %d\n", COUNT(asem.languages), COUNT(asem.peripherals));
+  return 0;
+}
 
